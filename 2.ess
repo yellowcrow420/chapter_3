@@ -1,0 +1,9 @@
+start
+new money_amount number
+new price number
+if (money_amount < price)
+  log string "can't buy the product"
+else
+  log string "can buy the product"
+close
+finish
