@@ -1,0 +1,17 @@
+start
+new AB number
+new BC number
+new CD number
+new AD number
+set AB 10
+set BC 10
+set CD 10
+set AD 50
+new bus_path number
+set bus_path AB + BC + CD + 10
+if (AD > bus_path)
+log string "Better use the bus"
+else
+log string "Walk on foot"
+close
+finish
