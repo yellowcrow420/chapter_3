@@ -3,7 +3,7 @@ new client_age number
 new min_age number
 set client_age 17
 set min_age 18
-if (client_age < min_age)
+if (min_age > client_age)
   log string "can't buy alcohol"
 else
   log string "can buy alcohol"
